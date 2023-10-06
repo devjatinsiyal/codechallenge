@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "5bc8ff19-7e6c-4ff8-abca-4820d3a084bb",
+		"name": "Code Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25303364"
+	},
+	"item": [
+		{
+			"name": "Get customer details from customernumber",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/users/subuser/124",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"users",
+						"subuser",
+						"124"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "customer number -- 24 <> EXAMPLE",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}/users/subuser/124",
+							"host": [
+								"{{localhost}}"
+							],
+							"path": [
+								"users",
+								"subuser",
+								"124"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3120"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c30-ZH8GgbRqcwsC42JfDD6uNnAQfxM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Oct 2023 18:24:58 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"customerNumber\": 124,\n            \"customerName\": \"Mini Gifts Distributors Ltd.\",\n            \"contactLastName\": \"Nelson\",\n            \"contactFirstName\": \"Susan\",\n            \"phone\": \"4155551450\",\n            \"addressLine1\": \"5677 Strong St.\",\n            \"addressLine2\": null,\n            \"city\": \"San Rafael\",\n            \"state\": \"CA\",\n            \"postalCode\": \"97562\",\n            \"country\": \"USA\",\n            \"salesRepEmployeeNumber\": 1165,\n            \"creditLimit\": \"210500.00\",\n            \"orders\": [\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-03-26\",\n                    \"orderprice\": 11044.3,\n                    \"ordernumber\": 10113,\n                    \"shippeddate\": \"2003-03-27\",\n                    \"requireddate\": \"2003-04-02\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-07-02\",\n                    \"orderprice\": 55601.84,\n                    \"ordernumber\": 10135,\n                    \"shippeddate\": \"2003-07-03\",\n                    \"requireddate\": \"2003-07-12\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-08-08\",\n                    \"orderprice\": 56052.56,\n                    \"ordernumber\": 10142,\n                    \"shippeddate\": \"2003-08-13\",\n                    \"requireddate\": \"2003-08-16\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-11-12\",\n                    \"orderprice\": 45084.38,\n                    \"ordernumber\": 10182,\n                    \"shippeddate\": \"2003-11-18\",\n                    \"requireddate\": \"2003-11-21\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-03-11\",\n                    \"orderprice\": 43369.3,\n                    \"ordernumber\": 10229,\n                    \"shippeddate\": \"2004-03-12\",\n                    \"requireddate\": \"2004-03-20\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-07-20\",\n                    \"orderprice\": 37430.89,\n                    \"ordernumber\": 10271,\n                    \"shippeddate\": \"2004-07-23\",\n                    \"requireddate\": \"2004-07-29\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-08-20\",\n                    \"orderprice\": 47979.98,\n                    \"ordernumber\": 10282,\n                    \"shippeddate\": \"2004-08-22\",\n                    \"requireddate\": \"2004-08-26\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-10-21\",\n                    \"orderprice\": 55639.66,\n                    \"ordernumber\": 10312,\n                    \"shippeddate\": \"2004-10-23\",\n                    \"requireddate\": \"2004-10-27\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-11-19\",\n                    \"orderprice\": 6466.44,\n                    \"ordernumber\": 10335,\n                    \"shippeddate\": \"2004-11-23\",\n                    \"requireddate\": \"2004-11-29\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-12-10\",\n                    \"orderprice\": 40676.26,\n                    \"ordernumber\": 10357,\n                    \"shippeddate\": \"2004-12-14\",\n                    \"requireddate\": \"2004-12-16\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-01-19\",\n                    \"orderprice\": 13874.75,\n                    \"ordernumber\": 10368,\n                    \"shippeddate\": \"2005-01-24\",\n                    \"requireddate\": \"2005-01-27\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-01-23\",\n                    \"orderprice\": 35137.54,\n                    \"ordernumber\": 10371,\n                    \"shippeddate\": \"2005-01-25\",\n                    \"requireddate\": \"2005-02-03\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-02-17\",\n                    \"orderprice\": 47765.59,\n                    \"ordernumber\": 10382,\n                    \"shippeddate\": \"2005-02-18\",\n                    \"requireddate\": \"2005-02-23\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-02-28\",\n                    \"orderprice\": 4466.71,\n                    \"ordernumber\": 10385,\n                    \"shippeddate\": \"2005-03-01\",\n                    \"requireddate\": \"2005-03-09\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-03-04\",\n                    \"orderprice\": 55902.5,\n                    \"ordernumber\": 10390,\n                    \"shippeddate\": \"2005-03-07\",\n                    \"requireddate\": \"2005-03-11\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-03-23\",\n                    \"orderprice\": 27695.54,\n                    \"ordernumber\": 10396,\n                    \"shippeddate\": \"2005-03-28\",\n                    \"requireddate\": \"2005-04-02\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"In Process\",\n                    \"orderdate\": \"2005-05-29\",\n                    \"orderprice\": 7639.1,\n                    \"ordernumber\": 10421,\n                    \"shippeddate\": null,\n                    \"requireddate\": \"2005-06-06\",\n                    \"customernumber\": 124\n                }\n            ]\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get customers list from sales employee number",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/users/employeeCustomers/1165",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"users",
+						"employeeCustomers",
+						"1165"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "sales employee number -- 1165 <> EXAMPLE",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}/users/employeeCustomers/1165",
+							"host": [
+								"{{localhost}}"
+							],
+							"path": [
+								"users",
+								"employeeCustomers",
+								"1165"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7543"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1d77-Xm1M5Fy/kVeYWKUkDXal8+iHH28\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 06 Oct 2023 18:24:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"customerNumber\": 124,\n            \"customerName\": \"Mini Gifts Distributors Ltd.\",\n            \"contactLastName\": \"Nelson\",\n            \"contactFirstName\": \"Susan\",\n            \"phone\": \"4155551450\",\n            \"addressLine1\": \"5677 Strong St.\",\n            \"addressLine2\": null,\n            \"city\": \"San Rafael\",\n            \"state\": \"CA\",\n            \"postalCode\": \"97562\",\n            \"country\": \"USA\",\n            \"salesRepEmployeeNumber\": 1165,\n            \"creditLimit\": \"210500.00\",\n            \"orders\": [\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-03-26\",\n                    \"orderprice\": 11044.3,\n                    \"ordernumber\": 10113,\n                    \"shippeddate\": \"2003-03-27\",\n                    \"requireddate\": \"2003-04-02\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-07-02\",\n                    \"orderprice\": 55601.84,\n                    \"ordernumber\": 10135,\n                    \"shippeddate\": \"2003-07-03\",\n                    \"requireddate\": \"2003-07-12\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-08-08\",\n                    \"orderprice\": 56052.56,\n                    \"ordernumber\": 10142,\n                    \"shippeddate\": \"2003-08-13\",\n                    \"requireddate\": \"2003-08-16\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-11-12\",\n                    \"orderprice\": 45084.38,\n                    \"ordernumber\": 10182,\n                    \"shippeddate\": \"2003-11-18\",\n                    \"requireddate\": \"2003-11-21\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-03-11\",\n                    \"orderprice\": 43369.3,\n                    \"ordernumber\": 10229,\n                    \"shippeddate\": \"2004-03-12\",\n                    \"requireddate\": \"2004-03-20\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-07-20\",\n                    \"orderprice\": 37430.89,\n                    \"ordernumber\": 10271,\n                    \"shippeddate\": \"2004-07-23\",\n                    \"requireddate\": \"2004-07-29\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-08-20\",\n                    \"orderprice\": 47979.98,\n                    \"ordernumber\": 10282,\n                    \"shippeddate\": \"2004-08-22\",\n                    \"requireddate\": \"2004-08-26\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-10-21\",\n                    \"orderprice\": 55639.66,\n                    \"ordernumber\": 10312,\n                    \"shippeddate\": \"2004-10-23\",\n                    \"requireddate\": \"2004-10-27\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-11-19\",\n                    \"orderprice\": 6466.44,\n                    \"ordernumber\": 10335,\n                    \"shippeddate\": \"2004-11-23\",\n                    \"requireddate\": \"2004-11-29\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-12-10\",\n                    \"orderprice\": 40676.26,\n                    \"ordernumber\": 10357,\n                    \"shippeddate\": \"2004-12-14\",\n                    \"requireddate\": \"2004-12-16\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-01-19\",\n                    \"orderprice\": 13874.75,\n                    \"ordernumber\": 10368,\n                    \"shippeddate\": \"2005-01-24\",\n                    \"requireddate\": \"2005-01-27\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-01-23\",\n                    \"orderprice\": 35137.54,\n                    \"ordernumber\": 10371,\n                    \"shippeddate\": \"2005-01-25\",\n                    \"requireddate\": \"2005-02-03\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-02-17\",\n                    \"orderprice\": 47765.59,\n                    \"ordernumber\": 10382,\n                    \"shippeddate\": \"2005-02-18\",\n                    \"requireddate\": \"2005-02-23\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-02-28\",\n                    \"orderprice\": 4466.71,\n                    \"ordernumber\": 10385,\n                    \"shippeddate\": \"2005-03-01\",\n                    \"requireddate\": \"2005-03-09\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-03-04\",\n                    \"orderprice\": 55902.5,\n                    \"ordernumber\": 10390,\n                    \"shippeddate\": \"2005-03-07\",\n                    \"requireddate\": \"2005-03-11\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-03-23\",\n                    \"orderprice\": 27695.54,\n                    \"ordernumber\": 10396,\n                    \"shippeddate\": \"2005-03-28\",\n                    \"requireddate\": \"2005-04-02\",\n                    \"customernumber\": 124\n                },\n                {\n                    \"status\": \"In Process\",\n                    \"orderdate\": \"2005-05-29\",\n                    \"orderprice\": 7639.1,\n                    \"ordernumber\": 10421,\n                    \"shippeddate\": null,\n                    \"requireddate\": \"2005-06-06\",\n                    \"customernumber\": 124\n                }\n            ]\n        },\n        {\n            \"customerNumber\": 129,\n            \"customerName\": \"Mini Wheels Co.\",\n            \"contactLastName\": \"Murphy\",\n            \"contactFirstName\": \"Julie\",\n            \"phone\": \"6505555787\",\n            \"addressLine1\": \"5557 North Pendale Street\",\n            \"addressLine2\": null,\n            \"city\": \"San Francisco\",\n            \"state\": \"CA\",\n            \"postalCode\": \"94217\",\n            \"country\": \"USA\",\n            \"salesRepEmployeeNumber\": 1165,\n            \"creditLimit\": \"64600.00\",\n            \"orders\": [\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-03-25\",\n                    \"orderprice\": 16537.85,\n                    \"ordernumber\": 10111,\n                    \"shippeddate\": \"2003-03-30\",\n                    \"requireddate\": \"2003-03-31\",\n                    \"customernumber\": 129\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-12-01\",\n                    \"orderprice\": 23923.93,\n                    \"ordernumber\": 10201,\n                    \"shippeddate\": \"2003-12-02\",\n                    \"requireddate\": \"2003-12-11\",\n                    \"customernumber\": 129\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-11-18\",\n                    \"orderprice\": 26248.78,\n                    \"ordernumber\": 10333,\n                    \"shippeddate\": \"2004-11-20\",\n                    \"requireddate\": \"2004-11-27\",\n                    \"customernumber\": 129\n                }\n            ]\n        },\n        {\n            \"customerNumber\": 161,\n            \"customerName\": \"Technics Stores Inc.\",\n            \"contactLastName\": \"Hashimoto\",\n            \"contactFirstName\": \"Juri\",\n            \"phone\": \"6505556809\",\n            \"addressLine1\": \"9408 Furth Circle\",\n            \"addressLine2\": null,\n            \"city\": \"Burlingame\",\n            \"state\": \"CA\",\n            \"postalCode\": \"94217\",\n            \"country\": \"USA\",\n            \"salesRepEmployeeNumber\": 1165,\n            \"creditLimit\": \"84600.00\",\n            \"orders\": [\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-07-24\",\n                    \"orderprice\": 38675.13,\n                    \"ordernumber\": 10140,\n                    \"shippeddate\": \"2003-07-30\",\n                    \"requireddate\": \"2003-08-02\",\n                    \"customernumber\": 161\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-10-28\",\n                    \"orderprice\": 50743.65,\n                    \"ordernumber\": 10168,\n                    \"shippeddate\": \"2003-11-01\",\n                    \"requireddate\": \"2003-11-03\",\n                    \"customernumber\": 161\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-11-02\",\n                    \"orderprice\": 2434.25,\n                    \"ordernumber\": 10317,\n                    \"shippeddate\": \"2004-11-08\",\n                    \"requireddate\": \"2004-11-12\",\n                    \"customernumber\": 161\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-01-05\",\n                    \"orderprice\": 12692.19,\n                    \"ordernumber\": 10362,\n                    \"shippeddate\": \"2005-01-10\",\n                    \"requireddate\": \"2005-01-16\",\n                    \"customernumber\": 161\n                }\n            ]\n        },\n        {\n            \"customerNumber\": 321,\n            \"customerName\": \"Corporate Gift Ideas Co.\",\n            \"contactLastName\": \"Brown\",\n            \"contactFirstName\": \"Julie\",\n            \"phone\": \"6505551386\",\n            \"addressLine1\": \"7734 Strong St.\",\n            \"addressLine2\": null,\n            \"city\": \"San Francisco\",\n            \"state\": \"CA\",\n            \"postalCode\": \"94217\",\n            \"country\": \"USA\",\n            \"salesRepEmployeeNumber\": 1165,\n            \"creditLimit\": \"105000.00\",\n            \"orders\": [\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-10-10\",\n                    \"orderprice\": 54682.68,\n                    \"ordernumber\": 10159,\n                    \"shippeddate\": \"2003-10-16\",\n                    \"requireddate\": \"2003-10-19\",\n                    \"customernumber\": 321\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-10-18\",\n                    \"orderprice\": 30876.44,\n                    \"ordernumber\": 10162,\n                    \"shippeddate\": \"2003-10-19\",\n                    \"requireddate\": \"2003-10-26\",\n                    \"customernumber\": 321\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-02-17\",\n                    \"orderprice\": 32626.09,\n                    \"ordernumber\": 10381,\n                    \"shippeddate\": \"2005-02-18\",\n                    \"requireddate\": \"2005-02-25\",\n                    \"customernumber\": 321\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-02-23\",\n                    \"orderprice\": 14155.57,\n                    \"ordernumber\": 10384,\n                    \"shippeddate\": \"2005-02-27\",\n                    \"requireddate\": \"2005-03-06\",\n                    \"customernumber\": 321\n                }\n            ]\n        },\n        {\n            \"customerNumber\": 450,\n            \"customerName\": \"The Sharp Gifts Warehouse\",\n            \"contactLastName\": \"Frick\",\n            \"contactFirstName\": \"Sue\",\n            \"phone\": \"4085553659\",\n            \"addressLine1\": \"3086 Ingle Ln.\",\n            \"addressLine2\": null,\n            \"city\": \"San Jose\",\n            \"state\": \"CA\",\n            \"postalCode\": \"94217\",\n            \"country\": \"USA\",\n            \"salesRepEmployeeNumber\": 1165,\n            \"creditLimit\": \"77600.00\",\n            \"orders\": [\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-05-11\",\n                    \"orderprice\": 42798.08,\n                    \"ordernumber\": 10250,\n                    \"shippeddate\": \"2004-05-15\",\n                    \"requireddate\": \"2004-05-19\",\n                    \"customernumber\": 450\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-06-14\",\n                    \"orderprice\": 16753.3,\n                    \"ordernumber\": 10257,\n                    \"shippeddate\": \"2004-06-15\",\n                    \"requireddate\": \"2004-06-24\",\n                    \"customernumber\": 450\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2005-04-01\",\n                    \"orderprice\": 31755.34,\n                    \"ordernumber\": 10400,\n                    \"shippeddate\": \"2005-04-04\",\n                    \"requireddate\": \"2005-04-11\",\n                    \"customernumber\": 450\n                },\n                {\n                    \"status\": \"On Hold\",\n                    \"orderdate\": \"2005-04-22\",\n                    \"orderprice\": 52229.55,\n                    \"ordernumber\": 10407,\n                    \"shippeddate\": null,\n                    \"requireddate\": \"2005-05-04\",\n                    \"customernumber\": 450\n                }\n            ]\n        },\n        {\n            \"customerNumber\": 487,\n            \"customerName\": \"Signal Collectibles Ltd.\",\n            \"contactLastName\": \"Taylor\",\n            \"contactFirstName\": \"Sue\",\n            \"phone\": \"4155554312\",\n            \"addressLine1\": \"2793 Furth Circle\",\n            \"addressLine2\": null,\n            \"city\": \"Brisbane\",\n            \"state\": \"CA\",\n            \"postalCode\": \"94217\",\n            \"country\": \"USA\",\n            \"salesRepEmployeeNumber\": 1165,\n            \"creditLimit\": \"60300.00\",\n            \"orders\": [\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2003-09-12\",\n                    \"orderprice\": 29997.09,\n                    \"ordernumber\": 10149,\n                    \"shippeddate\": \"2003-09-17\",\n                    \"requireddate\": \"2003-09-18\",\n                    \"customernumber\": 487\n                },\n                {\n                    \"status\": \"Shipped\",\n                    \"orderdate\": \"2004-02-10\",\n                    \"orderprice\": 12573.28,\n                    \"ordernumber\": 10219,\n                    \"shippeddate\": \"2004-02-12\",\n                    \"requireddate\": \"2004-02-17\",\n                    \"customernumber\": 487\n                }\n            ]\n        }\n    ]\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "localhost",
+			"value": "http://localhost:9000",
+			"type": "string"
+		}
+	]
+}

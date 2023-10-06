@@ -1,7 +1,6 @@
 var express = require('express')
 var router = express.Router()
 const db = require('../utils/db')
-var moment = require('moment')
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
